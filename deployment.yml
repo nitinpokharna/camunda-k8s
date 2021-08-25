@@ -21,7 +21,7 @@ spec:
       # breakdown of containers in k8s cluster
       containers:
       - name: bpm
-        image: camunda/camunda-bpm-platform
+        image: nitinpacr.azureacr.io/my-project
         ports:
         - containerPort: 8080
         # specify environment variables (from cloud)
