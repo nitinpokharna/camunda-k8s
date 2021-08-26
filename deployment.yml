@@ -20,8 +20,8 @@ spec:
     spec:
       # breakdown of containers in k8s cluster
       containers:
-      - name: bpm
-        image: nitinpacr.azureacr.io/my-project
+      - name: my-project
+        image: nitinpacr.azureacr.io/my-project:latest
         ports:
         - containerPort: 8080
         # specify environment variables (from cloud)
